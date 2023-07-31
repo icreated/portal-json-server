@@ -1,155 +1,132 @@
 {
-  "info": {
-    "id": 102,
-    "value": "gardenusr",
-    "name": "GardenUser",
-    "email": "user@gardenworld.com",
-    "birthday": null
-  },
-
-  "orders": [
+  "invoices": [
     {
-      "id": 1000001,
-      "documentNo": "30019",
-      "poReference": null,
-      "description": null,
-      "docStatus": "IP",
-      "docStatusName": "In Progress",
-      "date": 1690236000000,
-      "totalLines": 1336.8,
-      "grandTotal": 1336.8,
-      "lines": [
-        {
-          "id": 1000068,
-          "productId": 124,
-          "line": 10,
-          "name": "Elm Tree",
-          "description": null,
-          "priceList": 60,
-          "price": 57,
-          "qty": 22,
-          "lineNetAmt": 1254
-        },
-        {
-          "id": 1000069,
-          "productId": 143,
-          "line": 20,
-          "name": "Grass Seeder",
-          "description": "Manual Grass Seeder",
-          "priceList": 30,
-          "price": 27,
-          "qty": 1,
-          "lineNetAmt": 27
-        },
-        {
-          "id": 1000070,
-          "productId": 140,
-          "line": 30,
-          "name": "Rake Metal",
-          "description": "4 Foot Metal Rake",
-          "priceList": 12,
-          "price": 10.8,
-          "qty": 1,
-          "lineNetAmt": 10.8
-        },
-        {
-          "id": 1000071,
-          "productId": 148,
-          "line": 40,
-          "name": "TShirt - Green Large",
-          "description": null,
-          "priceList": 15,
-          "price": 15,
-          "qty": 3,
-          "lineNetAmt": 45
-        }
+      "id": 103,
+      "documentNo": "200002",
+      "poReference": "Phone Order",
+      "description": "Text is printed in the language of the business partner (if not entered in English like this). This is also a text, which will be printed in block format on two lines on the documents.",
+      "docStatus": "CO",
+      "totalLines": 152,
+      "grandTotal": 161.12,
+      "currency": "USD",
+      "date": [
+        2002,
+        8,
+        1
       ],
-      "shipAddress": {
-        "id": 1000000,
-        "name": "Green House",
-        "phone": null,
-        "location": {
-          "id": 124,
-          "address1": "1600 Pennsylvania Ave NW",
-          "address2": "Call Joe Doe",
-          "postal": "DC 20500",
-          "city": "Washington",
-          "country": {
-            "id": 100,
-            "name": "United States"
-          }
-        }
-      },
-      "billAddress": {
-        "id": 1000000
-      },
-      "shipper": {
-        "id": 100
-      },
-      "taxes": [
-        {
-          "name": "Standard",
-          "taxAmt": 0.0
-        }
-      ]
+      "bpartnerName": "C&W Construction"
     },
     {
-      "id": 1000000,
-      "documentNo": "30000",
+      "id": 101,
+      "documentNo": "200001",
+      "poReference": null,
+      "description": "(2)",
+      "docStatus": "CO",
+      "totalLines": 95,
+      "grandTotal": 100.7,
+      "currency": "USD",
+      "date": [
+        2002,
+        2,
+        22
+      ],
+      "bpartnerName": "Standard"
+    },
+    {
+      "id": 100,
+      "documentNo": "200000",
+      "poReference": null,
+      "description": "(1) ",
+      "docStatus": "CO",
+      "totalLines": 47.5,
+      "grandTotal": 50.35,
+      "currency": "USD",
+      "date": [
+        2002,
+        2,
+        22
+      ],
+      "bpartnerName": "Standard"
+    },
+    {
+      "id": 106,
+      "documentNo": "10000003",
       "poReference": null,
       "description": null,
-      "docStatus": "IP",
-      "docStatusName": "In Progress",
-      "date": 1687557600000,
-      "totalLines": 100.0,
-      "grandTotal": 100.0,
-      "lines": [
-        {
-          "id": 1000000,
-          "productId": 0,
-          "line": 10,
-          "name": null,
-          "description": null,
-          "priceList": 0.0,
-          "price": 50,
-          "qty": 2,
-          "lineNetAmt": 100
-        }
+      "docStatus": "CO",
+      "totalLines": 3657.5,
+      "grandTotal": 3657.5,
+      "currency": "USD",
+      "date": [
+        2003,
+        1,
+        22
       ],
-      "shipAddress": {
-        "id": 1000000
-      },
-      "billAddress": {
-        "id": 1000000
-      },
-      "shipper": {
-        "id": 100
-      },
-      "taxes": [
-        {
-          "name": "Exempt",
-          "taxAmt": 0.0
-        }
-      ]
-    }
-  ],
-
-  "addresses": [
+      "bpartnerName": "Tree Farm Inc."
+    },
     {
-      "id": 1000000,
-      "name": "Green House",
-      "phone": "06 07 08 09 00",
-      "location": {
-        "id": 1000000,
-        "address1": "1600 Pennsylvania Ave NW",
-        "address2": "Call Joe Doe",
-        "postal": "DC 20600",
-        "city": "Washington",
-        "country": {
-          "id": 100,
-          "name": "United States"
-        }
-      }
+      "id": 105,
+      "documentNo": "10000002",
+      "poReference": null,
+      "description": null,
+      "docStatus": "CO",
+      "totalLines": 2731.5,
+      "grandTotal": 2731.5,
+      "currency": "USD",
+      "date": [
+        2003,
+        1,
+        22
+      ],
+      "bpartnerName": "Seed Farm Inc."
+    },
+    {
+      "id": 104,
+      "documentNo": "10000001",
+      "poReference": null,
+      "description": null,
+      "docStatus": "CO",
+      "totalLines": 360,
+      "grandTotal": 360,
+      "currency": "USD",
+      "date": [
+        2002,
+        9,
+        7
+      ],
+      "bpartnerName": "Tree Farm Inc."
+    },
+    {
+      "id": 102,
+      "documentNo": "10000000",
+      "poReference": null,
+      "description": null,
+      "docStatus": "CO",
+      "totalLines": 200,
+      "grandTotal": 200,
+      "currency": "USD",
+      "date": [
+        2002,
+        2,
+        22
+      ],
+      "bpartnerName": "Tree Farm Inc."
+    },
+    {
+      "id": 109,
+      "documentNo": "100000",
+      "poReference": null,
+      "description": "Export Order",
+      "docStatus": "CO",
+      "totalLines": 215.9,
+      "grandTotal": 228.85,
+      "currency": "EUR",
+      "date": [
+        2003,
+        11,
+        1
+      ],
+      "bpartnerName": "Joe Block"
     }
   ]
 }

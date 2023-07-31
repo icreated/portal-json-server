@@ -18,6 +18,23 @@ server.post('/login', (req, res, next) => {
   }
 });
 
+server.get('/invoices', (req, res, next) => {
+  checkIfAuthorized(req, res);
+  res.send(account.invoices);
+});
+
+server.get('/invoices/:id', (req, res, next) => {
+    checkIfAuthorized(req, res);
+    const invoice = account.invoices.find(invoice => invoice.id === req.params.id);
+    res.send(invoice);
+});
+
+server.get("/common/reference/docstatus/:lang/:doctype", (req, res, next) => {
+// return plain text
+    res.setHeader('Content-Type', 'text/plain');
+    res.send(common.docStatus[req.params.doctype]);
+});
+
 
 server.listen(3000, () => {
   console.log('JSON Server is running');
