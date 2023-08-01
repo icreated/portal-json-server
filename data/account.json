@@ -4,6 +4,7 @@
       "id": 103,
       "documentNo": "200002",
       "poReference": "Phone Order",
+      "bpartnerName": "C&W Construction",
       "description": "Text is printed in the language of the business partner (if not entered in English like this). This is also a text, which will be printed in block format on two lines on the documents.",
       "docStatus": "CO",
       "totalLines": 152,
@@ -14,76 +15,59 @@
         8,
         1
       ],
-      "bpartnerName": "C&W Construction"
-    },
-    {
-      "id": 101,
-      "documentNo": "200001",
-      "poReference": null,
-      "description": "(2)",
-      "docStatus": "CO",
-      "totalLines": 95,
-      "grandTotal": 100.7,
-      "currency": "USD",
-      "date": [
-        2002,
-        2,
-        22
+      "billAddress": {
+        "id": 112,
+        "address1": "100 Elm St",
+        "address2": null,
+        "city": "Stamford",
+        "postal": "03323",
+        "countryName": "United States"
+      },
+      "lines": [
+        {
+          "id": 103,
+          "line": 10,
+          "name": "Planting Service",
+          "description": "Have a water hose avaiable",
+          "qty": 1,
+          "price": 42.75,
+          "priceList": 45,
+          "lineNetAmt": 42.75
+        },
+        {
+          "id": 104,
+          "line": 20,
+          "name": "Plum Tree",
+          "description": null,
+          "qty": 1,
+          "price": 47.5,
+          "priceList": 50,
+          "lineNetAmt": 47.5
+        },
+        {
+          "id": 105,
+          "line": 30,
+          "name": "Oak Tree",
+          "description": "If possible Canadian Oak",
+          "qty": 1,
+          "price": 61.75,
+          "priceList": 65,
+          "lineNetAmt": 61.75
+        }
       ],
-      "bpartnerName": "Standard"
-    },
-    {
-      "id": 100,
-      "documentNo": "200000",
-      "poReference": null,
-      "description": "(1) ",
-      "docStatus": "CO",
-      "totalLines": 47.5,
-      "grandTotal": 50.35,
-      "currency": "USD",
-      "date": [
-        2002,
-        2,
-        22
-      ],
-      "bpartnerName": "Standard"
-    },
-    {
-      "id": 106,
-      "documentNo": "10000003",
-      "poReference": null,
-      "description": null,
-      "docStatus": "CO",
-      "totalLines": 3657.5,
-      "grandTotal": 3657.5,
-      "currency": "USD",
-      "date": [
-        2003,
-        1,
-        22
-      ],
-      "bpartnerName": "Tree Farm Inc."
-    },
-    {
-      "id": 105,
-      "documentNo": "10000002",
-      "poReference": null,
-      "description": null,
-      "docStatus": "CO",
-      "totalLines": 2731.5,
-      "grandTotal": 2731.5,
-      "currency": "USD",
-      "date": [
-        2003,
-        1,
-        22
-      ],
-      "bpartnerName": "Seed Farm Inc."
+      "payments": [],
+      "taxes": [
+        {
+          "name": "CT Sales",
+          "tax": 9.12
+        }
+      ]
     },
     {
       "id": 104,
       "documentNo": "10000001",
       "poReference": null,
+      "bpartnerName": "Tree Farm Inc.",
       "description": null,
       "docStatus": "CO",
       "totalLines": 360,
@@ -94,39 +78,259 @@
         9,
         7
       ],
-      "bpartnerName": "Tree Farm Inc."
+      "billAddress": {
+        "id": 109,
+        "address1": "1 Main St",
+        "address2": null,
+        "city": "NJ Town",
+        "postal": "00011",
+        "countryName": "United States"
+      },
+      "lines": [
+        {
+          "id": 106,
+          "line": 10,
+          "name": "Oak Tree",
+          "description": null,
+          "qty": 10,
+          "price": 36,
+          "priceList": 60,
+          "lineNetAmt": 360
+        }
+      ],
+      "payments": [],
+      "taxes": [
+        {
+          "name": "Standard",
+          "tax": 0
+        }
+      ]
     },
     {
-      "id": 102,
-      "documentNo": "10000000",
+      "id": 105,
+      "documentNo": "10000002",
       "poReference": null,
+      "bpartnerName": "Seed Farm Inc.",
       "description": null,
       "docStatus": "CO",
-      "totalLines": 200,
-      "grandTotal": 200,
+      "totalLines": 2731.5,
+      "grandTotal": 2731.5,
       "currency": "USD",
       "date": [
-        2002,
-        2,
+        2003,
+        1,
         22
       ],
-      "bpartnerName": "Tree Farm Inc."
+      "billAddress": {
+        "id": 114,
+        "address1": "Mud Rd",
+        "address2": null,
+        "city": "Small Village",
+        "postal": "06455",
+        "countryName": "United States"
+      },
+      "lines": [
+        {
+          "id": 107,
+          "line": 10,
+          "name": "Fertilizer #50",
+          "description": null,
+          "qty": 40,
+          "price": 18,
+          "priceList": 20,
+          "lineNetAmt": 720
+        },
+        {
+          "id": 108,
+          "line": 20,
+          "name": "Grass Seed Container",
+          "description": null,
+          "qty": 12,
+          "price": 48,
+          "priceList": 80,
+          "lineNetAmt": 576
+        },
+        {
+          "id": 109,
+          "line": 30,
+          "name": "Hoe 4 ft",
+          "description": null,
+          "qty": 20,
+          "price": 12.75,
+          "priceList": 15,
+          "lineNetAmt": 255
+        },
+        {
+          "id": 110,
+          "line": 40,
+          "name": "Mulch 10#",
+          "description": null,
+          "qty": 50,
+          "price": 2.7,
+          "priceList": 3,
+          "lineNetAmt": 135
+        },
+        {
+          "id": 111,
+          "line": 50,
+          "name": "Rake Bamboo",
+          "description": null,
+          "qty": 15,
+          "price": 7.65,
+          "priceList": 9,
+          "lineNetAmt": 114.75
+        },
+        {
+          "id": 112,
+          "line": 60,
+          "name": "Rake Metal",
+          "description": null,
+          "qty": 20,
+          "price": 10.2,
+          "priceList": 12,
+          "lineNetAmt": 204
+        },
+        {
+          "id": 113,
+          "line": 70,
+          "name": "Grass Seeder",
+          "description": null,
+          "qty": 8,
+          "price": 25.5,
+          "priceList": 30,
+          "lineNetAmt": 204
+        },
+        {
+          "id": 114,
+          "line": 80,
+          "name": "Lawn Tiller",
+          "description": null,
+          "qty": 12,
+          "price": 29.75,
+          "priceList": 35,
+          "lineNetAmt": 357
+        },
+        {
+          "id": 115,
+          "line": 90,
+          "name": "Transplanter",
+          "description": null,
+          "qty": 30,
+          "price": 2.975,
+          "priceList": 3.5,
+          "lineNetAmt": 89.25
+        },
+        {
+          "id": 116,
+          "line": 100,
+          "name": "Weeder",
+          "description": null,
+          "qty": 30,
+          "price": 2.55,
+          "priceList": 3,
+          "lineNetAmt": 76.5
+        }
+      ],
+      "payments": [],
+      "taxes": [
+        {
+          "name": "Exempt",
+          "tax": 0
+        }
+      ]
     },
     {
-      "id": 109,
-      "documentNo": "100000",
+      "id": 106,
+      "documentNo": "10000003",
       "poReference": null,
-      "description": "Export Order",
+      "bpartnerName": "Tree Farm Inc.",
+      "description": null,
       "docStatus": "CO",
-      "totalLines": 215.9,
-      "grandTotal": 228.85,
-      "currency": "EUR",
+      "totalLines": 3657.5,
+      "grandTotal": 3657.5,
+      "currency": "USD",
       "date": [
         2003,
-        11,
-        1
+        1,
+        22
       ],
-      "bpartnerName": "Joe Block"
+      "billAddress": {
+        "id": 109,
+        "address1": "1 Main St",
+        "address2": null,
+        "city": "NJ Town",
+        "postal": "00011",
+        "countryName": "United States"
+      },
+      "lines": [
+        {
+          "id": 117,
+          "line": 10,
+          "name": "Azalea Bush",
+          "description": null,
+          "qty": 15,
+          "price": 23.75,
+          "priceList": 25,
+          "lineNetAmt": 356.25
+        },
+        {
+          "id": 118,
+          "line": 20,
+          "name": "Elm Tree",
+          "description": null,
+          "qty": 15,
+          "price": 57,
+          "priceList": 60,
+          "lineNetAmt": 855
+        },
+        {
+          "id": 119,
+          "line": 30,
+          "name": "Holly Bush",
+          "description": null,
+          "qty": 10,
+          "price": 38,
+          "priceList": 40,
+          "lineNetAmt": 380
+        },
+        {
+          "id": 120,
+          "line": 40,
+          "name": "Oak Tree",
+          "description": null,
+          "qty": 15,
+          "price": 61.75,
+          "priceList": 65,
+          "lineNetAmt": 926.25
+        },
+        {
+          "id": 121,
+          "line": 50,
+          "name": "Plum Tree",
+          "description": null,
+          "qty": 12,
+          "price": 47.5,
+          "priceList": 50,
+          "lineNetAmt": 570
+        },
+        {
+          "id": 122,
+          "line": 60,
+          "name": "Rose Bush",
+          "description": null,
+          "qty": 20,
+          "price": 28.5,
+          "priceList": 30,
+          "lineNetAmt": 570
+        }
+      ],
+      "payments": [],
+      "taxes": [
+        {
+          "name": "Exempt",
+          "tax": 0
+        }
+      ]
     }
   ]
 }

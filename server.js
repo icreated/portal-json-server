@@ -25,14 +25,20 @@ server.get('/invoices', (req, res, next) => {
 
 server.get('/invoices/:id', (req, res, next) => {
     checkIfAuthorized(req, res);
-    const invoice = account.invoices.find(invoice => invoice.id === req.params.id);
+    const invoice = account.invoices.find(invoice => invoice.id === +req.params.id);
     res.send(invoice);
 });
 
 server.get("/common/reference/docstatus/:lang/:doctype", (req, res, next) => {
 // return plain text
     res.setHeader('Content-Type', 'text/plain');
-    res.send(common.docStatus[req.params.doctype]);
+    res.send({value: req.params.doctype, label: common.docStatus[req.params.doctype]});
+});
+
+server.get("/common/reference/tendertype/:lang/:doctype", (req, res, next) => {
+// return plain text
+    res.setHeader('Content-Type', 'text/plain');
+    res.send({value: req.params.doctype, label: common.tenderType[req.params.doctype]});
 });
 
 

@@ -2,5 +2,9 @@
   "docStatus": {
     "IP": "In Progress",
     "CO": "Completed"
+  },
+  "tenderType": {
+    "K": "Credit cart",
+    "T": "Direct Deposit"
   }
 }
