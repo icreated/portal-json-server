@@ -23,10 +23,29 @@ server.get('/invoices', (req, res, next) => {
   res.send(account.invoices);
 });
 
+server.get('/invoices/openitems', (req, res, next) => {
+    checkIfAuthorized(req, res);
+    res.send(account.openItems);
+});
+
 server.get('/invoices/:id', (req, res, next) => {
     checkIfAuthorized(req, res);
     const invoice = account.invoices.find(invoice => invoice.id === +req.params.id);
     res.send(invoice);
+});
+
+
+server.get('/payments', (req, res, next) => {
+    checkIfAuthorized(req, res);
+    res.send(account.payments);
+});
+
+server.post('/payments', (req, res, next) => {
+    checkIfAuthorized(req, res);
+    const payment = req.body;
+    payment.id = account.payments.length + 1;
+    account.payments.push(payment);
+    res.status(200).send();
 });
 
 server.get("/common/reference/docstatus/:lang/:doctype", (req, res, next) => {
@@ -41,6 +60,11 @@ server.get("/common/reference/tendertype/:lang/:doctype", (req, res, next) => {
     res.send({value: req.params.doctype, label: common.tenderType[req.params.doctype]});
 });
 
+server.get('/common/reference/creditcardtypes' , (req, res, next) => {
+    checkIfAuthorized(req, res);
+    res.send(common.tenderTypes);
+});
+
 
 server.listen(3000, () => {
   console.log('JSON Server is running');
@@ -49,7 +73,7 @@ server.listen(3000, () => {
 
 function checkIfAuthorized(req, res, next) {
   if (req.headers.authorization !== `Bearer ${TOKEN}`) {
-    res.sendStatus(401).send('Unauthorized');
+    res.status(401).send('Unauthorized');
   }
 }
 
@@ -61,7 +85,7 @@ function update(res, path, object) {
   fs.writeFile(path, JSON.stringify(object), (err) => {
     if (err) {
       console.log(err);
-      res.sendStatus(500).send('Error updating data');
+      res.status(500).send('Error updating data');
     }
   });
 }

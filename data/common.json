@@ -1,10 +1,43 @@
 {
   "docStatus": {
+    "DR": "Draft",
     "IP": "In Progress",
     "CO": "Completed"
   },
   "tenderType": {
+    "X": "Cash",
     "K": "Credit cart",
     "T": "Direct Deposit"
-  }
+  },
+
+  "tenderTypes": [
+    {
+      "label": "ATM",
+      "value": "C"
+    },
+    {
+      "label": "Amex",
+      "value": "A"
+    },
+    {
+      "label": "Diners",
+      "value": "D"
+    },
+    {
+      "label": "Discover",
+      "value": "N"
+    },
+    {
+      "label": "MasterCard",
+      "value": "M"
+    },
+    {
+      "label": "Purchase Card",
+      "value": "P"
+    },
+    {
+      "label": "Visa",
+      "value": "V"
+    }
+  ]
 }

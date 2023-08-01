@@ -5,7 +5,7 @@
       "documentNo": "200002",
       "poReference": "Phone Order",
       "bpartnerName": "C&W Construction",
-      "description": "Text is printed in the language of the business partner (if not entered in English like this). This is also a text, which will be printed in block format on two lines on the documents.",
+      "description": "This is a phone order.  Please deliver to the back door.",
       "docStatus": "CO",
       "totalLines": 152,
       "grandTotal": 161.12,
@@ -38,7 +38,7 @@
           "id": 104,
           "line": 20,
           "name": "Plum Tree",
-          "description": null,
+          "description": "If possible Italian Plum",
           "qty": 1,
           "price": 47.5,
           "priceList": 50,
@@ -68,7 +68,7 @@
       "documentNo": "10000001",
       "poReference": null,
       "bpartnerName": "Tree Farm Inc.",
-      "description": null,
+      "description": "The tree is for the new office building.",
       "docStatus": "CO",
       "totalLines": 360,
       "grandTotal": 360,
@@ -91,7 +91,7 @@
           "id": 106,
           "line": 10,
           "name": "Oak Tree",
-          "description": null,
+          "description": "If possible Canadian Oak",
           "qty": 10,
           "price": 36,
           "priceList": 60,
@@ -109,9 +109,9 @@
     {
       "id": 105,
       "documentNo": "10000002",
-      "poReference": null,
+      "poReference": "CUSTOMER-ORDER-10000002",
       "bpartnerName": "Seed Farm Inc.",
-      "description": null,
+      "description": "All this furniture is for the new agency decoration.",
       "docStatus": "CO",
       "totalLines": 2731.5,
       "grandTotal": 2731.5,
@@ -124,7 +124,7 @@
       "billAddress": {
         "id": 114,
         "address1": "Mud Rd",
-        "address2": null,
+        "address2": "PO Box 123",
         "city": "Small Village",
         "postal": "06455",
         "countryName": "United States"
@@ -134,7 +134,7 @@
           "id": 107,
           "line": 10,
           "name": "Fertilizer #50",
-          "description": null,
+          "description": "50 pound bag of fertilizer",
           "qty": 40,
           "price": 18,
           "priceList": 20,
@@ -144,7 +144,7 @@
           "id": 108,
           "line": 20,
           "name": "Grass Seed Container",
-          "description": null,
+          "description": "Container of grass seed",
           "qty": 12,
           "price": 48,
           "priceList": 80,
@@ -154,7 +154,7 @@
           "id": 109,
           "line": 30,
           "name": "Hoe 4 ft",
-          "description": null,
+          "description": "4 foot hoe with wooden handle",
           "qty": 20,
           "price": 12.75,
           "priceList": 15,
@@ -164,7 +164,7 @@
           "id": 110,
           "line": 40,
           "name": "Mulch 10#",
-          "description": null,
+          "description": "10 pound bag of mulch",
           "qty": 50,
           "price": 2.7,
           "priceList": 3,
@@ -174,7 +174,7 @@
           "id": 111,
           "line": 50,
           "name": "Rake Bamboo",
-          "description": null,
+          "description": "Bamboo rake with wooden handle",
           "qty": 15,
           "price": 7.65,
           "priceList": 9,
@@ -184,7 +184,7 @@
           "id": 112,
           "line": 60,
           "name": "Rake Metal",
-          "description": null,
+          "description": "Metal rake with wooden handle",
           "qty": 20,
           "price": 10.2,
           "priceList": 12,
@@ -194,7 +194,7 @@
           "id": 113,
           "line": 70,
           "name": "Grass Seeder",
-          "description": null,
+          "description": "Hand held device",
           "qty": 8,
           "price": 25.5,
           "priceList": 30,
@@ -204,7 +204,7 @@
           "id": 114,
           "line": 80,
           "name": "Lawn Tiller",
-          "description": null,
+          "description": "Electric device",
           "qty": 12,
           "price": 29.75,
           "priceList": 35,
@@ -214,7 +214,7 @@
           "id": 115,
           "line": 90,
           "name": "Transplanter",
-          "description": null,
+          "description": "Wood Handle",
           "qty": 30,
           "price": 2.975,
           "priceList": 3.5,
@@ -224,7 +224,7 @@
           "id": 116,
           "line": 100,
           "name": "Weeder",
-          "description": null,
+          "description": "Long Handle",
           "qty": 30,
           "price": 2.55,
           "priceList": 3,
@@ -244,7 +244,7 @@
       "documentNo": "10000003",
       "poReference": null,
       "bpartnerName": "Tree Farm Inc.",
-      "description": null,
+      "description": "The trees to be planted before the winter.",
       "docStatus": "CO",
       "totalLines": 3657.5,
       "grandTotal": 3657.5,
@@ -267,7 +267,7 @@
           "id": 117,
           "line": 10,
           "name": "Azalea Bush",
-          "description": null,
+          "description": "Awesome flowers",
           "qty": 15,
           "price": 23.75,
           "priceList": 25,
@@ -277,7 +277,7 @@
           "id": 118,
           "line": 20,
           "name": "Elm Tree",
-          "description": null,
+          "description": "Great shade tree",
           "qty": 15,
           "price": 57,
           "priceList": 60,
@@ -287,7 +287,7 @@
           "id": 119,
           "line": 30,
           "name": "Holly Bush",
-          "description": null,
+          "description": "Great for hedges",
           "qty": 10,
           "price": 38,
           "priceList": 40,
@@ -297,7 +297,7 @@
           "id": 120,
           "line": 40,
           "name": "Oak Tree",
-          "description": null,
+          "description": "Amazing tree",
           "qty": 15,
           "price": 61.75,
           "priceList": 65,
@@ -307,7 +307,7 @@
           "id": 121,
           "line": 50,
           "name": "Plum Tree",
-          "description": null,
+          "description": "Need to be planted in pairs",
           "qty": 12,
           "price": 47.5,
           "priceList": 50,
@@ -317,7 +317,7 @@
           "id": 122,
           "line": 60,
           "name": "Rose Bush",
-          "description": null,
+          "description": "Beautiful flowers with smell of roses",
           "qty": 20,
           "price": 28.5,
           "priceList": 30,
@@ -331,6 +331,90 @@
           "tax": 0
         }
       ]
+    }
+  ],
+
+
+  "payments": [
+    {
+      "id": 1000000,
+      "documentNo": "400000",
+      "description": null,
+      "docStatus": "DR",
+      "payAmt": 1336.8,
+      "trxid": null,
+      "currency": "USD",
+      "tenderType": "K",
+      "date": [
+        2023,
+        7,
+        25
+      ]
+    },
+    {
+      "id": 100,
+      "documentNo": "400000",
+      "description": null,
+      "docStatus": "CO",
+      "payAmt": 98.5,
+      "trxid": null,
+      "currency": "USD",
+      "tenderType": "K",
+      "date": [
+        2002,
+        2,
+        22
+      ]
+    },
+    {
+      "id": 101,
+      "documentNo": "Tr 2002-02-22 - 20",
+      "description": null,
+      "docStatus": "CO",
+      "payAmt": 50,
+      "trxid": null,
+      "currency": "USD",
+      "tenderType": "X",
+      "date": [
+        2002,
+        2,
+        22
+      ]
+    }
+  ],
+
+  "openItems": [
+    {
+      "invoiceId": 103,
+      "orderId": 102,
+      "bpartnerId": 117,
+      "bpartnerLocationId": 112,
+      "currencyId": 100,
+      "documentNo": "200002",
+      "description": "Text is printed in the language of the business partner (if not entered in English like this). This is also a text, which will be printed in block format on two lines on the documents.",
+      "docStatus": "CO",
+      "isSOTRX": true,
+      "isActive": true,
+      "dateOrdered": [
+        2002,
+        8,
+        1
+      ],
+      "dateInvoiced": [
+        2002,
+        8,
+        1
+      ],
+      "dueDate": [
+        2002,
+        8,
+        1
+      ],
+      "netDays": 0,
+      "totalLines": 152,
+      "grandTotal": 161.12,
+      "openAmt": 161.12,
+      "paidAmt": 0.00
     }
   ]
 }
